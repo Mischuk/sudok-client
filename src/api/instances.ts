@@ -1,12 +1,11 @@
 import axios from "axios";
 import { QueryClient } from "react-query";
 import { io } from "socket.io-client";
-import { ADDRESS, BASE_URL, PORT } from "../lib";
 /*
     AXIOS
 */
 const axiosInstance = axios.create({
-  baseURL: BASE_URL,
+  baseURL: "https://sudok-serv.onrender.com/api",
 });
 
 axiosInstance.interceptors.response.use(
@@ -39,6 +38,6 @@ const queryClient = new QueryClient({
 /*
     WEBSOCKET
 */
-const socket = io(`http://${ADDRESS}:${PORT}`);
+const socket = io(`https://sudok-serv.onrender.com`);
 
 export { axiosInstance as api, queryClient, socket };
