@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sudok-client/static/css/main.4220cab0.css",
+    "main.js": "/sudok-client/static/js/main.a981e753.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/sudok-client/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/sudok-client/index.html",
+    "static/media/note.svg": "/sudok-client/static/media/note.be5bd040613f62c5480bc259873515ca.svg",
+    "static/media/tip.svg": "/sudok-client/static/media/tip.56f4a90091e8a87f3f05d7e0a92526f7.svg",
+    "static/media/erase.svg": "/sudok-client/static/media/erase.4a628ac6abd942deb7cfa5dfec15ec60.svg",
+    "static/media/back.svg": "/sudok-client/static/media/back.928bb9b44705f729eb5bb5022ce8a7a7.svg",
+    "main.4220cab0.css.map": "/sudok-client/static/css/main.4220cab0.css.map",
+    "main.a981e753.js.map": "/sudok-client/static/js/main.a981e753.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/sudok-client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4220cab0.css",
+    "static/js/main.a981e753.js"
+  ]
+}
