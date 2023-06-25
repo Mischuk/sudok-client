@@ -38,6 +38,8 @@ const queryClient = new QueryClient({
 /*
     WEBSOCKET
 */
-const socket = io(`https://sudok-serv.onrender.com`);
+const socket = io(`https://sudok-serv.onrender.com`, {
+  withCredentials: false,
+});
 
 export { axiosInstance as api, queryClient, socket };
